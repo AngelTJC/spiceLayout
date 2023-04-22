@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body {
+    background: #f0f0f0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.6rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    box-shadow: -1px 0px 0px rgba(226, 35, 35, 0.06);
+}
